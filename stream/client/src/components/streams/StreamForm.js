@@ -33,7 +33,6 @@ class StreamForm extends React.Component {
   }
 
   render() {
-    console.log("StreamForm props: ", this.props)
     return (
       <form
         className="ui form error"

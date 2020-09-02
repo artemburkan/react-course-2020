@@ -15,8 +15,6 @@ class StreamEdit extends React.Component {
   }
 
   render() {
-    console.log("stream: ", this.props.stream)
-
     if (!this.props.stream) {
       return <div>Loading...</div>
     }

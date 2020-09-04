@@ -20,6 +20,7 @@ class Button extends React.Component {
   }
 
   render() {
+    console.log(this)
     return (
       <ColorContext.Consumer>
         {(color) => this.renderButton(color)}
